@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app_flutter/global_variable.dart';
 import 'package:shop_app_flutter/home_page.dart';
-import 'package:shop_app_flutter/product_detail_pages.dart';
 
 void main() {
   runApp(MyApp());
@@ -44,9 +42,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: TextStyle(fontSize: 20, color: Colors.black),
         ),
       ),
-      home: ProductDetailPage(
-        product: products[0],
-      ),
+      home: HomePage(),
     );
   }
 }
