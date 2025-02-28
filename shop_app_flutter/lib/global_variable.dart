@@ -32,13 +32,3 @@ final products = [
     'company': 'Nike'
   },
 ];
-
-final cart = [
-  {
-    'id': '3',
-    'title': 'Men\'s Nike Shoes',
-    'price': 44.52,
-    'sizes': 8,
-    'imageUrl': 'assets/images/shoes_1.png',
-  },
-];
